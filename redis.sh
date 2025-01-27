@@ -1,9 +1,9 @@
 #!/bin/bash
 
-AMI=ami-0b4f379183e5706b9 #this keeps on changing
-#AMI=ami-09c813fb71547fc4f
+#AMI=ami-0b4f379183e5706b9 #this keeps on changing
+AMI=ami-09c813fb71547fc4f
 SG_ID=sg-008ec3ba4d4402c28 #replace with your SG ID
-INSTANCES=("mongodb" "mysql" "rabbitmq" "catalogue" "user" "cart" "shipping" "payment" "dispatch" "web")
+INSTANCES=("redis")
 ZONE_ID=Z06421211ES3IRIHBMUE0 # replace your zone ID
 DOMAIN_NAME="gdharma.xyz"
 
